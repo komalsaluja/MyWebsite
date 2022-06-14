@@ -37,11 +37,9 @@ const Navbar = () => {
            
           </ul>
         </li>
-       
       </ul>
-    </div>
 
-    <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{marginLeft:'50%'}}>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{marginLeft:'60vh'}}>
       <ul className="navbar-nav me-auto mb-5 mb-lg-0">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">ABOUT</a>
@@ -53,6 +51,7 @@ const Navbar = () => {
           <a className="nav-link active" aria-current="page" href="/">FOLLOW</a>
         </li>
      </ul>
+    </div>
     </div>
   </div>
 </nav>

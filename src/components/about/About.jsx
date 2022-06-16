@@ -1,8 +1,12 @@
 import React from 'react'
+import Common from '../../Common'
+import web1 from "../../assets/img24.jpeg"
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Common txt1="Welcome to About Page" txt2="Contact Us" navigateTo="/contact" imgsrc={web1} />
+    </div>
   )
 }
 

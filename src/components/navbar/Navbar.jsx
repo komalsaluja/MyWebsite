@@ -9,27 +9,29 @@ const Navbar = () => {
     <>
     <div className='container-fluid nav_bg'>
       <div className='row'>
-        <div className='col-11 mx-auto'>
+        <div className='col-12 mx-auto'>
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="/"><strong>D1</strong>DanceCrew</NavLink>
+    <NavLink className="navbar-brand" to="/"><strong>D1</strong>Dance</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav ms-auto">
+
         <li className="nav-item">
           <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
         </li>
+
         <li className="nav-item dropdown">
-          <NavLink className="nav-link dropdown-toggle" to="/service" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <NavLink className="nav-link dropdown-toggle" to="self" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Courses and Services
           </NavLink>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><NavLink className="dropdown-item" to="#">Dance</NavLink></li>
-            <li><NavLink className="dropdown-item" to="#">Art</NavLink></li>
-            <li><NavLink className="dropdown-item" to="#">Events</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/service">Dance</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/service">Art</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/service">Events</NavLink></li>
           </ul>
         </li>
         <li className="nav-item">

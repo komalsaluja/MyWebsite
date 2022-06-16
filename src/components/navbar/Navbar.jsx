@@ -1,19 +1,19 @@
 import React from 'react'
 import { NavLink} from 'react-router-dom';
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => {
   return (
     <>
-    <div classNameName='container-fluid nav_bg'>
-      <div classNameName='row'>
-        <div classNameName='col-10 mx-auto'>
+    <div className='container-fluid nav_bg'>
+      <div className='row'>
+        <div className='col-11 mx-auto'>
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="/">D1 Dance Academy</NavLink>
+    <NavLink className="navbar-brand" to="/"><strong>D1</strong>DanceCrew</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Hurricane&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Mulish', sans-serif;
-
+font-family: "Muli", sans-serif ;
+}
+body {
+  background-image: url('./assets/pexels-achraf-alan-1477156.jpg');
 }
 
 .navbar {
-  background-color: white !important;
+  background-color: transparent !important;
 }
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color: #81c8f1 !important;
 }
 
 .navbar a {
@@ -42,14 +44,14 @@ font-family: 'Mulish', sans-serif;
 #header {
   width: 100%;
   height: 80vh;
-  margin-top: 70px;
+  margin-top: 7.423117709437964vh;
 }
 
 #header h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
+  margin: 0 0 1.0604453870625663vh 0;
+  font-size: 5.090137857900318vh;
   font-weight: 700;
-  color: black;
+  color: white;
 }
 
 #header .brand-name {
@@ -57,20 +59,20 @@ font-family: 'Mulish', sans-serif;
 }
 
 #header h2 {
-  color: #484848;
-  font-size: 24px;
+  color: #e7c711;
+  font-size: 2.545068928950159vh;
 }
 
 #header .btn-get-started {
   font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 1.696712619300106vh;
+  letter-spacing: 0.10604453870625663vh;
   display: inline-block;
-  padding: 10px 30px;
-  border-radius: 50px;
+  padding: 1.0604453870625663vh 3.1813361611876987vh;
+  border-radius: 5.302226935312832vh;
   transition: 0.5s;
   color: #3498db;
-  border: 2px solid #3498db;
+  border: 0.21208907741251326vh solid #3498db;
   text-decoration: none;
 }
 
@@ -81,9 +83,9 @@ font-family: 'Mulish', sans-serif;
 
 .header-img {
   text-align: right;
-  width: 400px;
-  height: 300px;
-  margin-top: 10px;
+  width: 40.417815482502654vh;
+  height: 29.81336161187699vh;
+  margin-top: 1.0604453870625663vh;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -94,18 +96,18 @@ font-family: 'Mulish', sans-serif;
 
 @-webkit-keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(1.0604453870625663vh);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-1.0604453870625663vh);
   }
 }
 
 @keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(1.0604453870625663vh);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-1.0604453870625663vh);
   }
 }

@@ -7,6 +7,7 @@ font-family: "Muli", sans-serif ;
 }
 body {
   background-image: url('./assets/pexels-achraf-alan-1477156.jpg');
+  background-size: 300px 300px;
 }
 
 .navbar {
@@ -83,7 +84,7 @@ body {
 
 .header-img {
   text-align: right;
-  width: 40.417815482502654vh;
+  width: 25.417815482502654vh;
   height: 29.81336161187699vh;
   margin-top: 1.0604453870625663vh;
   padding-bottom: 0;

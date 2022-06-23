@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
     <div className='video-container'>
-      <iframe src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?playlist=4Ja5uJr7M90&controls=0&mute=1&loop=1&autoplay=1"
+      <iframe src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?playlist=4Ja5uJr7M90&controls=0&mute=1&loop=1&autoplay=1&playsinline=1"
        title="YouTube video player"
        frameborder="0" 
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" 
@@ -20,9 +20,9 @@ const Home = () => {
       allowfullscreen 
       style={{width:'100%',height:'90vh',pointerEvents:'none'}}></iframe>
   </div>
-         <div>
+         {/* <div>
           <img src={director} alt='director' style={{width:'100%'}}/>
-          </div> 
+          </div>  */}
     </>
   )
 }

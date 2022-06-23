@@ -5,24 +5,30 @@ import './home.css'
 // import Common from '../../Common'
 //  import director from "../../assets/director.png"
 // import vid from'../../assets/videoplayback.mp4'
+// import { ReactVideo,YoutubePlayer } from "reactjs-media";
 
 
 
 const Home = () => {
+
+  <script>
+  
+  </script>
+
+
   return (
     <>
-    <div className='video-container'>
-      <embed src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?playlist=4Ja5uJr7M90&controls=0&mute=1&loop=1&autoplay=1&playsinline=1"
-       title="YouTube video player"
-       frameborder="0" 
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" 
-       wmode="transparent" type="video/mp4" width="100%" height="100%"        
-      allowfullscreen 
-      style={{width:'100%',height:'90vh',pointerEvents:'none'}}></embed>
-  </div>
+
+<div class="rwd-video">
+   "<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
+   </div>   
          {/* <div>
           <img src={director} alt='director' style={{width:'100%'}}/>
           </div>  */}
+    
+
+          
+
     </>
   )
 }

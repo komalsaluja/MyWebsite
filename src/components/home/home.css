@@ -2,6 +2,7 @@
     overflow: hidden;
     position: relative;
     width:100%;
+
 }
 
 .video-container::after {
@@ -16,4 +17,28 @@
     left: 0;
     width: 100%;
     height: 100%;
+
+    
 }
+
+.rwd-video {
+    background: #99CCFF;
+    box-shadow: 15px 15px 10px #888888;
+  }
+  .rwd-video {
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      position: relative;
+  }
+  .rwd-video iframe,
+  .rwd-video object,
+  .rwd-video embed {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  } 
+  

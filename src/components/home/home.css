@@ -19,7 +19,7 @@
       width: 100%;
   } 
   
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .rwd-video {
         height: 0;
         overflow: hidden;
@@ -28,6 +28,57 @@
         position: relative;
     }
     .rwd-video iframe {
-        pointer-events: none;
+        pointer-events: all;
+    }
+}
+
+@media only screen and (max-device-width : 640px) {
+    .rwd-video {
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        position: relative;
+    }
+    .rwd-video iframe {
+        pointer-events: all;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .rwd-video {
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        position: relative;
+    }
+    .rwd-video iframe {
+        pointer-events: all;
+    }
+}
+@media screen and (max-width: 540px) {
+    .rwd-video {
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        position: relative;
+    }
+    .rwd-video iframe {
+        pointer-events: all;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .rwd-video {
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        position: relative;
+    }
+    .rwd-video iframe {
+        pointer-events: all;
     }
 }

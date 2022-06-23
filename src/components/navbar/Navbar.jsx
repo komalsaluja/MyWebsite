@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink} from 'react-router-dom';
-// import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
@@ -13,8 +13,8 @@ const Navbar = () => {
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="/"><strong>D1</strong>Dance</NavLink>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <NavLink className="navbar-brand" to="/"><img src={logo} alt='logo' width='70px' style={{alignSelf: 'center'}}/></NavLink>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style={{padding:'0'}} >
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">

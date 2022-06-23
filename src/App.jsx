@@ -5,7 +5,7 @@ import Service from './components/service/Service';
 import Contact from './components/contact/Contact';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
         <Route exact path="/service" element={<Service/>} />
         <Route exact path="/contact" element={<Contact/>} />
       </Routes>
-      <Footer/>
+      {/* <Service/> */}
+      {/* <Footer/> */}
     </>
   );
 }

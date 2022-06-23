@@ -20,7 +20,7 @@ const Home = () => {
     <>
 
 <div class="rwd-video">
-   "<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
+   "<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?controls=0&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
    </div>   
          {/* <div>
           <img src={director} alt='director' style={{width:'100%'}}/>

@@ -6,11 +6,13 @@ import './home.css'
 
 
 const Home = () => {
+
+ 
 return (
     <>
 
 <div class="rwd-video">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?playlist=4Ja5uJr7M90&controls=0&autoplay=1&loop=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; modestbranding; clipboard-write; encrypted-media; gyroscope;" allowfullscreen style={{pointerEvents:{lg:'none',md:'none'}}}></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?playlist=4Ja5uJr7M90&controls=0&autoplay=1&loop=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; modestbranding; clipboard-write; encrypted-media; gyroscope;" allowfullscreen ></iframe>
    </div>   
          <div>
           <img src={director} alt='director' style={{width:'100%'}}/>

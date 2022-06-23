@@ -19,3 +19,15 @@
       width: 100%;
   } 
   
+  @media (max-width: 768px) {
+    .rwd-video {
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        position: relative;
+    }
+    .rwd-video iframe {
+        pointer-events: none;
+    }
+}

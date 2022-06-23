@@ -1,15 +1,28 @@
 import React from 'react'
-import web from "../../assets/logo.png"
-import Common from '../../Common'
-import Videohome from '../Videohome'
+import './home.css'
+// import { NavLink } from 'react-router-dom'
+//  import web from "../../assets/D1Logo.png"
+// import Common from '../../Common'
+ import director from "../../assets/director.png"
+// import vid from'../../assets/videoplayback.mp4'
+
 
 
 const Home = () => {
   return (
     <>
-    <Videohome videosrc="https://www.youtube-nocookie.com/embed/rfixvdRCI8o?playlist=rfixvdRCI8o&controls=0&autoplay=1&loop=1&mute=1"/>
-     <Common txt1="Shape your Career with" txt2="Get Started" navigateTo="/service" imgsrc={web} />
-     
+    <div className='video-container'>
+      <iframe src="https://www.youtube-nocookie.com/embed/4Ja5uJr7M90?playlist=4Ja5uJr7M90&controls=0&mute=1&loop=1&autoplay=1"
+       title="YouTube video player"
+       frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" 
+       
+      allowfullscreen 
+      style={{width:'100%',height:'90vh',pointerEvents:'none'}}></iframe>
+  </div>
+         <div>
+          <img src={director} alt='director' style={{width:'100%'}}/>
+          </div> 
     </>
   )
 }

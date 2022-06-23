@@ -1,11 +1,13 @@
 import React from 'react'
 import Sdata from '../Sdata'
 import Card from './Card'
+import './service.css'
 
 const Service = () => {
   return (
     <>
-    <div className='my-5' >
+    <div className='back'>
+        <div className='back my-5' >
       <h1 className='text-center' style={{color:'white'}}>Our Services</h1>
     </div>
     <div className='container-fluid mb-5' >
@@ -30,6 +32,7 @@ const Service = () => {
 
         </div>
         </div>
+    </div>
     </>
   )
 }

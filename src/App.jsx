@@ -5,13 +5,15 @@ import Service from './components/service/Service';
 import Contact from './components/contact/Contact';
 import Achieve from './components/achieve/Achieve';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+// import Navbar from './components/navbar/Navbar';
+import Navbar1 from './components/navbar/Navbar1';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-    <Navbar/>
+    <Navbar1/>
+    {/* <Navbar/> */}
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About/>} />

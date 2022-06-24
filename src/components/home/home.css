@@ -1,6 +1,9 @@
 .rwd-video {
     background: #99CCFF;
-    box-shadow: 15px 15px 10px #888888;
+    /* box-shadow: 5px 5px 5px #f0c15b; */
+    /* border: 2px solid gold; */
+    border-bottom-right-radius:50px ;
+    border-bottom-left-radius: 50px;
   }
   .rwd-video {
       height: 0;
@@ -8,6 +11,7 @@
       padding-bottom: 56.25%;
       padding-top: 30px;
       position: relative;
+      
   }
   .rwd-video iframe,
   .rwd-video object,

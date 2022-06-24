@@ -1,0 +1,18 @@
+.d1 {
+    color: white;
+    max-width: 100%;
+font-size: 22px;
+display: grid;
+justify-content: left;
+background-color: rgb(23, 31, 34);
+margin: 25px;
+float:left;
+
+}
+
+.image {
+    width: 200px;
+   
+}
+  
+    

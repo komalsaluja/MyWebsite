@@ -6,36 +6,53 @@ import { NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faTwitter, faInstagram, faFacebook,} from '@fortawesome/free-brands-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import TopContactBar from '../TopContactBar';
 // import { LinkContainer } from 'react-router-bootstrap'
 // import jQuery from 'jquery';
+
 
 
 const Navbar1 = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
+<TopContactBar/>
+
+      <Navbar fluid collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Container style={{maxWidth:'1900px'}}>
   <Nav.Link className='navbar-brand' as={NavLink} eventKey={1} to="/"><img src={logo} alt='logo' width='70px'/></Nav.Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav " />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link as={NavLink} eventKey={1} to="/">Home</Nav.Link>
-      <Nav.Link as={NavLink} eventKey={2} to="/about">About Us</Nav.Link>
-      <NavDropdown title="Dance & Fitness" id="collasible-nav-dropdown">
-        <NavDropdown.Item as={NavLink} eventKey={1} to="/basic">Basic Dance</NavDropdown.Item>
-        <NavDropdown.Item as={NavLink} eventKey={2} to="/advance">Advance Certification</NavDropdown.Item>
-        <NavDropdown.Item as={NavLink} eventKey={3} to="/professional">Professional Diploma</NavDropdown.Item>
+      <Nav.Link as={NavLink} eventKey={1} to="/">HOME</Nav.Link>
+        <NavDropdown title="ABOUT US" id="collasible-nav-dropdown">
+        <NavDropdown.Item as={NavLink} eventKey={1} to="/about" style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>ROHIT DHARGAVE</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item as={NavLink} eventKey={4} to="/individual">Fitness</NavDropdown.Item>
+        <NavDropdown.Item as={NavLink} eventKey={2} to="/about" style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>D1 DANCE ACADEMY</NavDropdown.Item>
+        <NavDropdown.Divider />
       </NavDropdown>
-      <Nav.Link as={NavLink} eventKey={2} to="/about">Art & Gymnastics</Nav.Link>
+
+
+      <NavDropdown title="DANCE FITNESS GYMNASTICS" id="collasible-nav-dropdown">
+        <NavDropdown.Item as={NavLink} eventKey={1} to="/basic" style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>BASIC DANCE</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item as={NavLink} eventKey={2} to="/advance" style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>ADVANCE CERTIFICATION</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item as={NavLink} eventKey={3} to="/professional" style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>PROFESSIONAL DIPLOMA</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item as={NavLink} eventKey={4} to="/individual" style={{backgroundColor:'lightskyblue',color:'darkblue',fontWeight:'bold'}}>FITNESS</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item as={NavLink} eventKey={4} to="/individual" style={{backgroundColor:'lightskyblue',color:'darkblue',fontWeight:'bold'}}>GYMNASTICS</NavDropdown.Item>
+
+      </NavDropdown>
+      <Nav.Link as={NavLink} eventKey={2} to="/achieve" >ACHIEVEMENTS</Nav.Link>
+      <Nav.Link as={NavLink} eventKey={1} to="/studio" >D1 STUDIO</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link as={NavLink} eventKey={1} to="/studio" >D1 Studio</Nav.Link>
-      <Nav.Link as={NavLink} eventKey={2} to="/achieve" >Achievements</Nav.Link>
-      <Nav.Link as={NavLink} eventKey={3} to="/events">Events</Nav.Link>
-      <Nav.Link as={NavLink} eventKey={4} to="/contact">Contact Us</Nav.Link>
+      
+      
+      <Nav.Link as={NavLink} eventKey={3} to="/events">ART AND EVENTS</Nav.Link>
+      <Nav.Link as={NavLink} eventKey={4} to="/contact">CONTACT US</Nav.Link>
     </Nav>
 
     <Nav>

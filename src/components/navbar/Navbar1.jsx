@@ -7,39 +7,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faTwitter, faInstagram, faFacebook,} from '@fortawesome/free-brands-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 // import { LinkContainer } from 'react-router-bootstrap'
-import jQuery from 'jquery';
+// import jQuery from 'jquery';
 
-jQuery(document).click(function() {
-
-});
-
-jQuery('.navbar').click(function(event) {
-    jQuery(".navbar-collapse").collapse('hide');
-    event.stopPropagation();
-});
 
 const Navbar1 = () => {
 
   return (
-    <div>
-         <div className='container-fluid nav_bg'>
-      <div className='row'>
-        <div className='mx-auto'>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id='ev.target'>
+    <>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Nav.Link as={NavLink} eventKey={1} to="/"><img src={logo} alt='logo' width='70px' style={{alignSelf: 'center'}}/></Nav.Link>
+  <Nav.Link className='navbar-brand' as={NavLink} eventKey={1} to="/"><img src={logo} alt='logo' width='70px'/></Nav.Link>
   <Navbar.Toggle aria-controls="responsive-navbar-nav " />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link as={NavLink} eventKey={1} to="/">Home</Nav.Link>
       <Nav.Link as={NavLink} eventKey={2} to="/about">About Us</Nav.Link>
-      <NavDropdown title="Dance" id="collasible-nav-dropdown">
+      <NavDropdown title="Dance & Fitness" id="collasible-nav-dropdown">
         <NavDropdown.Item as={NavLink} eventKey={1} to="/basic">Basic Dance</NavDropdown.Item>
         <NavDropdown.Item as={NavLink} eventKey={2} to="/advance">Advance Certification</NavDropdown.Item>
         <NavDropdown.Item as={NavLink} eventKey={3} to="/professional">Professional Diploma</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item as={NavLink} eventKey={4} to="/individual">Particular Dance Forms</NavDropdown.Item>
+        <NavDropdown.Item as={NavLink} eventKey={4} to="/individual">Fitness</NavDropdown.Item>
       </NavDropdown>
+      <Nav.Link as={NavLink} eventKey={2} to="/about">Art & Gymnastics</Nav.Link>
     </Nav>
     <Nav>
       <Nav.Link as={NavLink} eventKey={1} to="/studio" >D1 Studio</Nav.Link>
@@ -64,10 +54,8 @@ const Navbar1 = () => {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-    </div>
-    </div>
-    </div>
-    </div>
+    </>
+   
   )
 }
 

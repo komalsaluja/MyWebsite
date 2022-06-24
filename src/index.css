@@ -17,10 +17,10 @@ body {
  
 }
 
-.navbar-brand {
+/* .navbar-brand {
   font-size: 1.0rem !important;
-  color: #81c8f1 !important;
-}
+  color: #129ff0 !important;
+} */
 
 .navbar a {
   font-size: 1.3rem;
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #f3ef07 !important;
+  color: #ffffff !important;
 }
  @media(max-width:991px) {
    .navbar-brand {

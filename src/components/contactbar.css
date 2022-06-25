@@ -24,5 +24,9 @@ a {
    height:fit-content;
    padding: 0;
    margin: 0;
-   background-color: steelblue;
+   background-color: rgb(170, 208, 240);
+}
+.nav-link {
+    padding: 10px;
+    font-size: 20px;
 }

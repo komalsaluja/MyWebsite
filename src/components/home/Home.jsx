@@ -2,7 +2,7 @@ import './home.css'
 // import { NavLink } from 'react-router-dom'
 import React, { Fragment, Component } from 'react';
 import MediaQuery from 'react-responsive';
-import Director from '../director/Director';
+// import Director from '../director/Director';
 
 class Home extends Component {
     render() {
@@ -19,7 +19,7 @@ class Home extends Component {
    </div>  
                 </MediaQuery>
        
-            <Director/>
+            {/* <Director/> */}
             </Fragment>
         );
     }

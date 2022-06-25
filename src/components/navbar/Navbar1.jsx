@@ -4,9 +4,10 @@ import { Nav,NavDropdown,Container } from 'react-bootstrap';
 import logo from "../../assets/logo.png";
 import { NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faYoutube, faTwitter, faInstagram, faFacebook,} from '@fortawesome/free-brands-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube, faTwitter, faInstagram, faFacebook,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
+import { faPhone,faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import TopContactBar from '../TopContactBar';
+
 // import { LinkContainer } from 'react-router-bootstrap'
 // import jQuery from 'jquery';
 
@@ -63,6 +64,8 @@ const Navbar1 = () => {
           <a className="nav-link" href="https://www.facebook.com/D-ONE-DANCE-GROUP-202664833218291/" target="_blank" rel="noreferrer"  style={{color:'blue',margin:'5px',paddingLeft:'5px'}}><FontAwesomeIcon icon={faFacebook}/></a>
           <a className="nav-link" href="https://twitter.com/d1_dance"target="_blank" rel="noreferrer" style={{color:'lightblue',margin:'5px',paddingLeft:'5px'}} ><FontAwesomeIcon icon={faTwitter} /></a>
           <a className="nav-link" href="tel:+919314920058"target="_blank" rel="noreferrer"  style={{color:'green',margin:'5px',paddingLeft:'5px'}} ><FontAwesomeIcon icon={faPhone} /></a>
+          <a className="nav-link" href='https://api.whatsapp.com/send?phone=919314920058' style={{color:'green',margin:'5px',paddingLeft:'5px'}}><FontAwesomeIcon icon={faWhatsapp} /></a>
+          <a className="nav-link" href="https://g.page/D1_DANCE_FITNESS_N_ART_ACADEMY?share" target="_blank" rel="noreferrer" style={{margin:'5px',paddingLeft:'5px',color:'blue'}}><FontAwesomeIcon icon={faLocationDot} /></a>  
          
         </li>   
         </ul>

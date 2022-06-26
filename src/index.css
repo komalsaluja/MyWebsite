@@ -14,7 +14,6 @@ body {
 
 .navbar {
   background-color: transparent !important;
- 
 }
 
 /* .navbar-brand {
@@ -45,18 +44,6 @@ body {
   border-bottom: #b5e019;
  }
 }
-.whatsapp {
-  position: fixed;
-  right: 0px;
-  top: 52%;
-}
-.whatsapp h5 {
-  color: white;
-  background: #20b20f;
-  padding: 12px;
-  border-radius: 10px;
-}
-
 
 
 

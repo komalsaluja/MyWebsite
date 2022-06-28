@@ -1,9 +1,10 @@
 .rwd-video {
-    background: #99CCFF;
-    /* box-shadow: 5px 5px 5px #f0c15b; */
+    /* background: #99CCFF; */
+    box-shadow: 5px 5px 5px #f0c15b;
     /* border: 2px solid gold; */
-    border-bottom-right-radius:50px ;
-    border-bottom-left-radius: 50px;
+    /* border-bottom-right-radius:50px ;
+    border-bottom-left-radius: 50px; */
+    margin-bottom: 40px;
   }
   .rwd-video {
       height: 0;
@@ -23,8 +24,3 @@
       width: 100%;
   } 
   
-  .director {
-      width: 40%;
-      height: 50%;
-      margin: 5%;
-  }

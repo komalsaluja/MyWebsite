@@ -1,0 +1,19 @@
+.App1{
+    /* background: linear-gradient(to right,#2c5364,#203a43); */
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: rgb(152, 227, 230);
+    padding: 1rem;
+    margin: 5px;
+}
+.card p {
+    padding-top: 1rem;
+    line-height: 150%;
+}
+.expand {
+    width: 100%;
+}

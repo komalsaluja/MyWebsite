@@ -1,0 +1,226 @@
+<!doctype html>
+                        <html>
+                            <head>
+                                <meta charset='utf-8'>
+                                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                                <title>Snippet - GoSNippets</title>
+                                <link href='' rel='stylesheet'>
+                                <link href='' rel='stylesheet'>
+                                <style>:root {
+    --green: #37c4b1;
+    --cyan: #25aad8;
+    --blue: #4092e3;
+    --purple: #7d54c1;
+    --pink: #c776a3;
+    --orange: #ee8877;
+    --deep-purple: #281c4c;
+    --duration: 0.7s;
+    --ease: cubic-bezier(0.6, 0, 0.2, 1);
+    --transition: transform var(--duration) var(--ease);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--deep-purple);
+    overflow: hidden;
+}
+
+.goo-filter {
+    position: absolute;
+    visibility: hidden;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 90vmin;
+    width: 55vmin;
+}
+
+#app>section {
+    margin: 5vmin 8vmin;
+    grid-area: 1/1;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    will-change: transform;
+}
+
+section>* {
+    flex: 0 0 100%;
+    grid-area: 1/1;
+}
+
+.backgrounds {
+    filter: url("#goo");
+    pointer-events: none;
+}
+
+.background {
+    will-change: transform;
+    border-radius: 2vmin;
+    background-image: linear-gradient(to bottom, var(--primary, blue), var(--secondary, pink));
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 3;
+    background-image: linear-gradient(to bottom, #4b3777, #331847);
+    opacity: 0.8;
+    transition: inherit;
+    transition-property: opacity;
+}
+
+.background[data-active]::before {
+    opacity: 0.01;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.background,
+article {
+    will-change: transform;
+    transition: var(--transition);
+    transition-property: transform, transform-origin, z-index;
+    padding: 5vmin;
+    color: white;
+    transform-origin: right center;
+    transform: translateX(-90%) translateZ(-25vmin) rotateY(40deg);
+}
+
+.background[data-active],
+article[data-active] {
+    transform-origin: center center;
+    transform: translateX(0) translateZ(0) rotateY(0deg);
+    z-index: 3;
+}
+
+.background[data-active]~*,
+article[data-active]~* {
+    z-index: -1;
+    transform-origin: left center;
+    transform: translateX(140%) translateZ(-25vmin) rotateY(-40deg);
+}
+
+.background[data-active]+*,
+article[data-active]+* {
+    z-index: 1;
+    transform: translateX(90%) translateZ(-25vmin) rotateY(-40deg);
+}
+
+article {
+    opacity: 0;
+    transition-property: transform, transform-origin, opacity, z-index;
+}
+
+article[data-active] {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 4vmin;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 2.5vmin;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.6);
+}</style>
+                                <script type='text/javascript' src=''></script>
+                                <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+                                <script type='text/javascript' src=''></script>
+                            </head>
+                            <body oncontextmenu='return false' class='snippet-body'>
+                            <main id="app">
+
+    <section class="backgrounds">
+        <div class="background" style="--primary: var(--pink); --secondary: var(--orange)">
+        </div>
+        <div class="background" data-active="true" style="--primary: var(--purple); --secondary: var(--pink)">
+        </div>
+        <div class="background" style="--primary: var(--green); --secondary: var(--cyan)">
+        </div>
+        <div class="background" style="--primary: var(--blue); --secondary: var(--purple)">
+        </div>
+    </section>
+
+    <section class="content">
+        <article>
+            <header>
+                <h1>Get the middle seat if you don't check in on time</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article data-active="true">
+            <header>
+                <h1>Your boarding zone is "recruiter"</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, reiciendis.</p>
+        </article>
+        <article data-id="3">
+            <header>
+                <h1>Check in for your flight online</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos corporis dolor.</p>
+        </article>
+        <article data-id="4">
+            <header>
+                <h1>Get through security eventually</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint eaque adipisci sit?</p>
+        </article>
+    </section>
+</main>
+                            <script type='text/javascript'>const elApp = document.querySelector("#app");
+const elBackgrounds = Array.from(document.querySelectorAll(".background"));
+const elArticles = Array.from(document.querySelectorAll(".content article"));
+
+elArticles.forEach(article => {
+article.addEventListener("click", e => {
+const index = elArticles.indexOf(article);
+const bg = elBackgrounds[index];
+
+// Remove all data-active
+elApp.querySelectorAll("[data-active]").forEach(el => {
+el.removeAttribute("data-active");
+});
+
+article.setAttribute("data-active", true);
+bg.setAttribute('data-active', true);
+});
+});</script>
+                            </body>
+                        </html>

@@ -59,34 +59,40 @@ const Navbar1 = () => {
 
 
       <NavDropdown title="COURSES" id="collasible-nav-dropdown">
-        <LinkContainer to="#">
+        <LinkContainer to="/courses/DANCE">
         <NavDropdown.Item style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>BASIC DANCE</NavDropdown.Item>
         </LinkContainer>
 
         <NavDropdown.Divider />
 
-        <LinkContainer to="#" >
+        <LinkContainer to="/courses/DANCE" >
         <NavDropdown.Item style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>ADVANCE CERTIFICATION</NavDropdown.Item>
         </LinkContainer>
 
         <NavDropdown.Divider />
 
 
-        <LinkContainer to="#">
+        <LinkContainer to="/courses/DANCE">
         <NavDropdown.Item style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>PROFESSIONAL DIPLOMA</NavDropdown.Item>
         </LinkContainer>
 
         <NavDropdown.Divider />
 
-        <LinkContainer to="#">
+        <LinkContainer to="/courses/FITNESS">
         <NavDropdown.Item style={{backgroundColor:'lightskyblue',color:'darkblue',fontWeight:'bold'}}>FITNESS</NavDropdown.Item>
         </LinkContainer>
 
 
         <NavDropdown.Divider />
 
-        <LinkContainer to="#">
+        <LinkContainer to="/courses/GYMNASTICS">
         <NavDropdown.Item style={{backgroundColor:'lightskyblue',color:'darkblue',fontWeight:'bold'}}>GYMNASTICS</NavDropdown.Item>
+        </LinkContainer>
+
+        <NavDropdown.Divider />
+
+        <LinkContainer to="/courses/ZUMBA">
+        <NavDropdown.Item style={{backgroundColor:'lightskyblue',color:'darkblue',fontWeight:'bold'}}>ZUMBA</NavDropdown.Item>
         </LinkContainer>
 
       </NavDropdown>
@@ -98,7 +104,7 @@ const Navbar1 = () => {
     </Nav>
     <Nav>
       
-      <LinkContainer to="/events">
+      <LinkContainer to="/">
       <Nav.Link >ART AND EVENTS</Nav.Link>
       </LinkContainer>
       

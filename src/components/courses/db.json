@@ -3,44 +3,58 @@
       {
         "id": 1,
         "name": "DANCE",
-        "desc": "If Dance is your passion or hobby, then this place is for you. We invite you to be a part of D1.",
-        "small": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "large": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        "desc": "If Dance is your passion or hobby, then this place is for you. We invite you to be a part of D1. Join our Basic course or ADVANCE CERTIFICATION course or PROFESSIONAL DIPLOMA course.",
+        "desc2":" At D1 we have a team of versatile dancers who teach and perform various dance styles like - HipHop, Contemporary, Bollywood, Western, Folk, etc. Let's take a quick look at what we do: We train group performers, we train kids and adults for various Competitions and Reality Shows. We also conduct training programs and workshops for students and Dance Teachers. Our staff also judges various competitions.",
+        "image":"/images/img9.jpeg",
+        "basic":"BASIC DANCE AND FITNESS",
+        "advance":"ADVANCE CERTIFICATION",
+        "professional":"PROFESSIONAL DIPLOMA"
       },
       {
         "id": 2,
         "name": "GYMNASTICS",
         "desc": "Attain that balance,strength,flexibility that you've always wished for.Checkout our Gymnastics course",
-        "small": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "large": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        "desc2":"You'll be taught under the supervision of trained and experienced staff. ",
+        "image":"/images/img20cropped.jpeg",
+        "basic":"PHYSICAL TRAINING",
+        "advance":"STUNTS",
+        "professional":"PERSONALISED ATTENTION"
       },
       {
         "id": 3,
         "name": "ZUMBA",
         "desc": "This course is perfect for your daily routine workout with some cool dance moves...!",
-        "small": "https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbWVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-        "large": "https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        "image":"/images/img17.jpeg",
+        "basic":"BOLLYWOOD ZUMBA",
+        "advance":"BODY WORKOUT",
+        "professional":"WEIGHT GAIN AND LOSS"
       },
       {
         "id": 4,
         "name": "FITNESS",
         "desc": "Don't procrastinate. You need to workout. Join our daily Fitness course Click for more details.",
-        "small": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZWluc3RlaW58ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
-        "large": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        "image":"/images/img15.jpeg",
+        "basic":"CARDIO",
+        "advance":"GYMNASIUM",
+        "professional":"COMPLETE WORKOUT"
       },
       {
         "id": 5,
         "name": "EVENTS",
         "desc": "We also manage and arrange all kinds of events. Checkout the page for more.",
-        "small": "https://images.unsplash.com/photo-1605464315542-bda3e2f4e605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWlycG9kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-        "large": "https://images.unsplash.com/photo-1605464315542-bda3e2f4e605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        "image":"/images/img16.jpeg",
+        "basic":"CORPORATE EVENTS",
+        "advance":"SCHOOL/COLLEGE EVENTS",
+        "professional":"FAMILY EVENTS"
       },
       {
         "id": 6,
         "name": "ART",
         "desc": "Wanna get that tattoo you've always wished for. Click here to know more about the art domain of D1.!",
-        "small": "https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbWVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-        "large": "https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        "image":"/images/img25.jpeg",
+        "basic":"TATTOO ART",
+        "advance":"SKETCHING",
+        "professional":"MAKEUP AND MEHENDI"
       }
     ]
   }

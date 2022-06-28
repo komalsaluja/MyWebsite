@@ -28,8 +28,12 @@ const[isOpen,setIsOpen]=useState(false);
         animate={{opacity:1}}
         // transition={{duration:1}}
         className='expand'>
+          <img width="300vw" src={props.image} alt=''/>
           <p>
-           {props.desc}
+          <p className="text-slate-900 mb-10">{`${props.desc.substring(
+                0,
+                200
+              )}...`}</p>
           </p>
           {/* {items.products.forEach(({id,name}) => ( */}
         {/* <article key={props.id} > */}

@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import SingleProduct from './components/courses/SingleProduct';
 import Error from './components/Error';
 import ScrollToTop from "./components/courses/ScrollToTop"
+import CourseBunch from './components/courses/CourseBunch';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About/>} />
+        <Route exact path="/courses" element={<CourseBunch/>} />
         <Route path="/courses/:name" element={<SingleProduct/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/achieve" element={<Achieve/>} />

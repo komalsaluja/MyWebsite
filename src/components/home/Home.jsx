@@ -7,6 +7,7 @@ import Map from '../Map'
 // import FetchProducts from '../courses/FetchProducts';
 // import CourseCard from '../courses/CourseCard';
 import CourseBunch from '../courses/CourseBunch';
+import Courses1 from '../Courses1';
 
 
 class Home extends Component {
@@ -26,6 +27,7 @@ class Home extends Component {
 
                 {/* <FetchProducts/> */}
                 <CourseBunch/>
+                <Courses1/>
             <Map />
             </Fragment>
         );

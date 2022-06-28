@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import "./contact.css"
 
 const Contact = () => {
@@ -29,7 +30,7 @@ const Contact = () => {
   return (
     <>
     <div className='my-5'>
-      <h1 className="text-center" style={{color:"whitesmoke"}}>
+      <h1 className="text-center text-3xl" style={{color:"whitesmoke"}}>
       Contact US
         </h1>
         </div>
@@ -88,9 +89,17 @@ const Contact = () => {
                  onChange={InputEvent}></textarea>
               </div>
 
-              <div className="col-12">
-                <button className="btn btn-outline-primary" type="submit">Submit form</button>
-             </div>
+              <ul className="flex col-12">
+                <li>
+                <button className="btn btn-warning" type="submit" style={{color:'white'}}><b>SUBMIT</b></button>
+                </li>
+
+                <li>
+            <Link to="/" className="text-slate-200 hover:text-white">
+              &larr; Back
+            </Link>
+          </li>
+             </ul>
               </form>
             </div>
           </div>

@@ -19,7 +19,7 @@ const[isOpen,setIsOpen]=useState(false);
        layout 
        onClick={()=>setIsOpen(!isOpen)} 
        className='card'
-       style={{borderRadius:'1rem',boxShadow:'0px 10px 30px rgba(0,0,0,0.5)'}}
+       style={{borderRadius:'1rem',boxShadow:'0px 10px 30px rgba(0,0,0,0.5)',cursor:'pointer'}}
        >
         <motion.h2 layout="position" style={{fontWeight:'bolder'}}>{props.name}</motion.h2>
         

@@ -26,7 +26,7 @@ class Home extends Component {
 
                 {/* <FetchProducts/> */}
                 <CourseBunch/>
-            <Map/>
+            <Map />
             </Fragment>
         );
     }

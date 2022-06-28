@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
 import './coursecard.css'
-import data from "./db.json"
+// import data from "./db.json"
 import { Link } from "react-router-dom"
 
 
@@ -13,6 +13,7 @@ const[isOpen,setIsOpen]=useState(false);
 
   return (
     <div className='App1'>
+      
       <motion.div
        transition={{layout:{type:"just"}}} 
        layout 
@@ -30,12 +31,19 @@ const[isOpen,setIsOpen]=useState(false);
           <p>
            {props.desc}
           </p>
+          {/* {items.products.forEach(({id,name}) => ( */}
+        {/* <article key={props.id} > */}
+          <Link to={`/courses/${props.name}`}>
           <button className='btn btn-warning'>CLICK TO KNOW MORE</button>
+         </Link>
+          {/* </article> */}
+           {/* ))} */}
         </motion.div>
         )}
        
       </motion.div>
-      
+     
+     
     </div>
   )
 }

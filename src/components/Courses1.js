@@ -12,37 +12,15 @@ function Courses1() {
     <>
     <div className='row'>
     <div class="col col-md-3">
-      <center style={{color:"gold",fontSize:"30px"}}><b>Basic Course<br/>Beginner</b></center>
-      <Card course="Duration: 3 months" altImage="Basic Dance" text="What will you learn?" item1="Dance Foundation" item2="Fitness" item3="Mobility/Stretching" item4="Choreography" />
-      <Link to="/contact"><button  style={{
-        borderRadius: 35,
-        backgroundColor: "gold",
-        padding: "10px 10px",
-        fontSize: "18px"
-    }}
-   >Enquire</button></Link>
+           <Card heading="Basic Dance Course" course="Duration: 3 months" altImage="Basic Dance" text="What will you learn?" item1="Dance Foundation" item2="Fitness" item3="Mobility/Stretching" item4="Choreography" msgLink="https://api.whatsapp.com/send?text=Hello Sir, I would like to enquire about the Basic Dance Course&phone=919314920058" />
       </div>
       <div class="col col-md-3">
-      <center style={{color:"gold",fontSize:"30px"}}><b>Advance Level<br/>Certification Course</b></center>
-      <Card course="Duration: 6 months" altImage="Advance Dance" text="What will you learn?" item1="Everything in Basic Course +" item2="Moves and Grooves" item3="Gymnastics/stunts" item4="Choreography"/>
-      <Link to="/contact"><button  style={{
-        borderRadius: 35,
-        backgroundColor: "gold",
-        padding: "10px 10px",
-        fontSize: "18px"
-    }}
-   >Enquire</button></Link>
+     
+      <Card heading="Advance Dance Certification" course="Duration: 6 months" altImage="Advance Dance" text="What will you learn?" item1="Everything in Basic Course +" item2="Moves and Grooves" item3="Gymnastics/stunts" item4="Choreography" msgLink="https://api.whatsapp.com/send?text=Hello Sir, I would like to enquire about the Advance Dance Certification Course&phone=919314920058"/>
       </div>
       <div class="col col-md-3">
-      <center style={{color:"gold",fontSize:"30px"}}><b>Professional Dance<br/>Diploma</b></center>
-      <Card course="Duration: 12 months" text="What will you learn?" item1="Everything in Basic and Advance +" item2="Musicality" item3="Choreography" item4="Get a Diploma"/>
-      <Link to="/contact"><button  style={{
-        borderRadius: 35,
-        backgroundColor: "gold",
-        padding: "10px 10px",
-        fontSize: "18px"
-    }}
-   >Enquire</button></Link>
+      
+      <Card heading="Professional Dance Diploma" course="Duration: 12 months" text="What will you learn?" item1="Everything in Basic and Advance +" item2="Musicality" item3="Choreography" item4="Get a Diploma" msgLink="https://api.whatsapp.com/send?text=Hello Sir, I would like to enquire about the Professional Dance Diploma&phone=919314920058"/>
       </div>
     </div>
      

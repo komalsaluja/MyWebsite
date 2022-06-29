@@ -27,6 +27,9 @@ class Home extends Component {
 
                 {/* <FetchProducts/> */}
                 <CourseBunch/>
+
+
+                    
                 <Courses1/>
             <Map />
             </Fragment>

@@ -35,14 +35,18 @@ export default function SingleProduct() {
         </ul>
        
         <p className="text-slate-100 my-1 mb-0 text-2xl" style={{color:'white'}}>{singleProduct.desc}</p>
-        <div className='flex' style={{display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
+        <div className='flex my-3' style={{display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
         
 
-        <img src={singleProduct.image} width="500rem" alt="" />
+        <img className="m-3" src={singleProduct.image} width="300rem" alt="" />
+        <img className="m-3" src={singleProduct.image1} width="300rem" alt="" />
+        <img className="m-3" src={singleProduct.image2} width="300rem" alt="" />
+       
+        
         <p className="text-slate-100 m-2 text-2xl" style={{color:'gold'}}>{singleProduct.desc2}</p>
         </div>
        
-        
+       
 
         <ul className="flex items-center mt-10">
           <li className="mr-5">

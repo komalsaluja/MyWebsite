@@ -18,7 +18,7 @@ const[isOpen,setIsOpen]=useState(false);
        transition={{layout:{type:"just"}}} 
        layout 
        onClick={()=>setIsOpen(!isOpen)} 
-       className='card'
+       className='card1'
        style={{borderRadius:'1rem',boxShadow:'0px 10px 30px rgba(0,0,0,0.5)',cursor:'pointer'}}
        >
         <motion.h2 layout="position" style={{fontWeight:'bolder'}}>{props.name}</motion.h2>

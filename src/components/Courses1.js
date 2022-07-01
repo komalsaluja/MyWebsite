@@ -4,7 +4,7 @@ import "../App.css"
 // import img23 from '../assets/img23.jpeg';
 // import img24 from '../assets/img24.jpeg';
 // import img26 from '../assets/img26.jpeg';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Courses1() {
 

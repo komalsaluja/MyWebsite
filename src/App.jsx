@@ -14,6 +14,7 @@ import ScrollToTop from "./components/courses/ScrollToTop"
 import CourseBunch from './components/courses/CourseBunch';
 
 function App() {
+  
   return (
     <>
     <Navbar1/>

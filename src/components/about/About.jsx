@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // import Common from '../../Common'
 import web from "../../assets/logo.png"
 import "./about.css"
@@ -8,18 +9,18 @@ const About = () => {
     <>
     <div className="d1">
   The foundation of D1 Dance Academy was laid by Rohit Vijay Dhargave on 10th of April 2010. D1 Dance Fitness and Art Academy is based in Nagpur and is ISO Certified and Registered.
-  <br/>Business Adhar Registered and Gumasta Reg.
+  <br/>
     <img className='image' src={web} alt='logo'/>
    <br/> D1 Dance Crew has participated in many national and state level competitions 
    and won over 200 dance competitions.
    <br/> We have a team of experienced, trained, and talented staff and artists. 
     Our Speciality lies in:
-    <ul>
-      <li>Dance</li>
-      <li>Fitness</li>
-      <li>Gymnastics</li>
-      <li>Events</li>
-      <li>Art</li>
+    <ul style={{fontSize:'25px',lineHeight:'70%',padding:'0',margin:'0',display:'flex'}}>
+   <Link to="/courses/DANCE">  <button className='btn btn-info'> <li>DANCE</li></button></Link>
+     <Link to="/courses/FITNESS">  <button className='btn btn-info'> <li>FITNESS</li></button></Link>
+     <Link to="/courses/GYMNASTICS"> <button className='btn btn-info'>  <li>GYMNASTICS</li></button></Link>
+     <Link to="/courses/EVENTS">  <button className='btn btn-info'> <li>EVENTS</li></button></Link>
+     <Link to="/courses/ART">  <button className='btn btn-info'> <li>ART</li></button></Link>
     </ul> 
     We prepare Kids and Adults for competitions and Reality shows.
     </div>

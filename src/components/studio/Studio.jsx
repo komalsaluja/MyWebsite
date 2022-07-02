@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
-import './achieve.css';
-import Achievements from './Achievements'
+import './studio.css';
 import CloseIcon from '@mui/icons-material/Close';
 import img1 from '../../assets/img1.jpeg';
 import img2 from '../../assets/img2.jpeg';
@@ -29,19 +28,16 @@ import imgCard from "../../assets/imgCard.jpeg";
 import imgCard1 from "../../assets/imgCard1.jpeg";
 import logo from "../../assets/logo.png";
 
-
-const Achieve = () => {
+const Studio = () => {
 
   let data = [
     {
       id:1,
-      imgSrc: img10,
-      id1:'street'
+      imgSrc: img1,
     },
     {
       id:2,
       imgSrc: img2,
-      id1:'telugu'
     },
     {
       id:3,
@@ -66,29 +62,26 @@ const Achieve = () => {
     {
       id:8,
       imgSrc: img8,
-      id1:'image8',
     },
     {
       id:9,
       imgSrc: img9,
-      id1:'dss'
     },
     {
       id:10,
-      imgSrc: img19,      
+      imgSrc: img10,
     },
     {
       id:11,
-      imgSrc: img18,
+      imgSrc: img11,
     },
     {
       id:12,
-      imgSrc: img17,
+      imgSrc: img12,
     },
     {
       id:13,
       imgSrc: img13,
-      id1:'winner'
     },
     {
       id:14,
@@ -104,29 +97,27 @@ const Achieve = () => {
     },
     {
       id:17,
-      imgSrc: img12,
-      id1:'image12'
+      imgSrc: img17,
     },
     {
       id:18,
-      imgSrc: img11,
+      imgSrc: img18,
     },
     {
       id:19,
-      imgSrc: img1,
+      imgSrc: img19,
     },
     {
       id:20,
       imgSrc: img20,
-      id1:'indianhiphop'
     },
     {
       id:21,
-      imgSrc: img22,
+      imgSrc: img21,
     },
     {
       id:22,
-      imgSrc: img21,
+      imgSrc: img22,
     },
     {
       id:23,
@@ -156,9 +147,8 @@ const Achieve = () => {
 
   return (
     <>
-    <h1 className='heading' style={{color:'gold'}}>Our Journey...</h1>
+    <h1 className='heading' style={{color:'gold',textAlign:'center'}}>D1 STUDIO...</h1>
 
-<Achievements/>
     <div className={model? "model open" : "model"}>
       <img src={tempimgSrc} alt="bigImg" />
       <CloseIcon onClick={()=> setModel(false)}/>
@@ -168,7 +158,7 @@ const Achieve = () => {
         {data.map((item,index) => {
           return (
             <div className='pics' key={index} onClick={()=> getImg(item.imgSrc)} >
-              <img src={item.imgSrc} alt="" style={{width:"100%"}}  id={item.id1}/>
+              <img src={item.imgSrc} alt="" style={{width:"100%"}}/>
 
               </div>
           )
@@ -180,4 +170,4 @@ const Achieve = () => {
    
   )  
 }
-export default Achieve
+export default Studio

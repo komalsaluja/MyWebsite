@@ -60,14 +60,6 @@ body {
  }
 }
 
-
-
-
-.card {
-  display: flexbox;
-  width: fit-content;
-}
-
 .row {
   justify-content: center;
   align-items: center;
@@ -76,8 +68,4 @@ body {
 
 .col {
   margin: 20px;
-}
-.card {
-  border-radius: 10%;
-  font-weight: bold;
 }

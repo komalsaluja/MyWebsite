@@ -12,7 +12,7 @@ function Courses1() {
     <>
     <div className='row'>
     <div class="col col-md-3">
-           <Card heading="Basic Dance Course" course="Duration: 3 months" altImage="Basic Dance" text="What will you learn?" item1="Dance Foundation" item2="Fitness" item3="Mobility/Stretching" item4="Choreography" msgLink="https://api.whatsapp.com/send?text=Hello Sir, I would like to enquire about the Basic Dance Course&phone=919314920058" />
+           <Card heading="Basic Dance Course" course="Duration: 3 months" altImage="Basic Dance" text="What will you learn?" item1="Dance Foundation" item2="Fitness" item3="Mobility/Stretching" item4="Choreography" msgLink="https://api.whatsapp.com/send?text=Hello Sir, I would like to enquire about the Basic Dance Course&phone=919314920058" msgEnq="I would like to enquire about the Basic Dance Course" />
       </div>
       <div class="col col-md-3">
      

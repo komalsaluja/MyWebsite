@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+// import Contact1 from './components/contact/Contact1';
 import Achieve from './components/achieve/Achieve';
 import { Routes, Route } from 'react-router-dom';
 // import Navbar from './components/navbar/Navbar';
@@ -12,6 +13,7 @@ import SingleProduct from './components/courses/SingleProduct';
 import Error from './components/Error';
 import ScrollToTop from "./components/courses/ScrollToTop"
 import CourseBunch from './components/courses/CourseBunch';
+import Studio from './components/studio/Studio';
 
 function App() {
   
@@ -26,7 +28,9 @@ function App() {
         <Route exact path="/courses" element={<CourseBunch/>} />
         <Route path="/courses/:name" element={<SingleProduct/>} />
         <Route path="/contact" element={<Contact/>} />
+        {/* <Route path="/contact" element={<Contact1/>} /> */}
         <Route path="/achieve" element={<Achieve/>} />
+        <Route path="/studio" element={<Studio/>} />
         <Route path="*" element={<Error/>} />
       </Routes>
       <Footer/>

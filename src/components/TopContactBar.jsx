@@ -10,10 +10,10 @@ const TopContactBar = () => {
     <>
         <div className="bar">
         <div className="outer">
-       <a className="nav-link p-0" href='tel:+919314920058'  style={{color:'black',fontSize:'15px'}}><FontAwesomeIcon icon={faPhone} />+91-9314920058</a>
-          <a className="nav-link p-0" href='https://api.whatsapp.com/send?text=Welcome to D1 Dance Academy!Feel free to ask any of your queries here. We are happy to help you&phone=919314920058' style={{color:'green'}}><FontAwesomeIcon icon={faWhatsapp} /></a>
+       <a className="nav-link p-0" href='tel:+919021152302'  style={{color:'black',fontSize:'15px'}}><FontAwesomeIcon icon={faPhone} />+91-9021152302</a>
+          <a className="nav-link p-0" href='https://api.whatsapp.com/send?text=Welcome to D1 Dance Academy!Feel free to ask any of your queries here. We are happy to help you&phone=919021152302' style={{color:'green'}}><FontAwesomeIcon icon={faWhatsapp} /></a>
              
-        <a className="nav-link p-0" href="mailto:komal.saluja@cumminscollege.in?body={Welcome to D1. You can enter any of your queries here and send us a mail. We'll be happy to help you}" style={{color:'black'}}><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a className="nav-link p-0" href="mailto:rohitdhargave1@gmail.com?body={Welcome to D1. You can enter any of your queries here and send us a mail. We'll be happy to help you}" style={{color:'black'}}><FontAwesomeIcon icon={faEnvelope} /></a>
 
 
 

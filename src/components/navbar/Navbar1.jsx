@@ -38,7 +38,7 @@ const Navbar1 = () => {
       </LinkContainer>
      
       <NavDropdown title="ABOUT US" id="collasible-nav-dropdown">
-      <LinkContainer to="/about">
+      <LinkContainer to="/director">
       <NavDropdown.Item style={{backgroundColor:'lightblue',color:'darkblue',fontWeight:'bold'}}>FOUNDER (ROHIT DHARGAVE)</NavDropdown.Item>
       </LinkContainer>
         

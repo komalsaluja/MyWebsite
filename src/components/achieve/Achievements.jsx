@@ -5,6 +5,8 @@ export default class componentName extends Component {
     render() {
         return (
             <div>
+
+<h1 style={{fontSize:'2rem',textAlign:'center',color:'white',textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue"}}>OUR JOURNEY</h1>
                  <ul style={{display:'flex',margin:'10px',flexWrap:'wrap',width:'fit-content'}}>
     <button className='btn btn-info m-2 text-xl bg-orange-400' onClick={document.getElementById('second')}>  <li><Link to="gallery" spy={true} smooth={true}>Represented India in HipHop Unite (HipHop Unite qualifier)(Austria)</Link></li></button>
     

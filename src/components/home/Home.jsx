@@ -8,6 +8,7 @@ import Map from '../Map'
 // import CourseCard from '../courses/CourseCard';
 import CourseBunch from '../courses/CourseBunch';
 import Courses1 from '../Courses1';
+import Achievements1 from '../achieve/Achievements1';
 
 
 class Home extends Component {
@@ -27,6 +28,7 @@ class Home extends Component {
 
                 {/* <FetchProducts/> */}
                 <CourseBunch/>
+                <Achievements1/>
 
 
                     

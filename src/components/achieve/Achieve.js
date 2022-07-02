@@ -156,9 +156,7 @@ const Achieve = () => {
 
   return (
     <>
-    <h1 className='heading' style={{color:'gold'}}>Our Journey...</h1>
-
-<Achievements/>
+    <Achievements/>
     <div className={model? "model open" : "model"}>
       <img src={tempimgSrc} alt="bigImg" />
       <CloseIcon onClick={()=> setModel(false)}/>

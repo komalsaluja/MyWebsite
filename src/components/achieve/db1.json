@@ -1,0 +1,115 @@
+{
+    "data" : [
+    {
+      "id":1,
+      "imgSrc": "/images/img10.jpeg",
+      "id1":"street"
+    },
+    {
+        "id":2,
+        "imgSrc": "/images/img2.jpeg",
+        "id1":"telugu"
+    },
+    {
+        "id":3,
+        "imgSrc": "/images/img3.jpeg"
+    },
+    {
+        "id":4,
+        "imgSrc": "/images/img4.jpeg"
+    },
+    {
+        "id":5,
+        "imgSrc": "/images/img5.jpeg"
+    },
+    {
+        "id":6,
+        "imgSrc": "/images/img6.jpeg"
+    },
+    {
+        "id":7,
+        "imgSrc": "/images/img7.jpeg"
+    },
+    {
+        "id":8,
+        "imgSrc": "/images/img8.jpeg",
+        "id1":"image8"
+    },
+    {
+        "id":9,
+        "imgSrc": "/images/img9.jpeg",
+        "id1":"dss"
+    },
+    {
+        "id":10,
+        "imgSrc": "/images/img19.jpeg"    
+    },
+    {
+        "id":11,
+        "imgSrc": "/images/img18.jpeg"
+    },
+    {
+        "id":12,
+        "imgSrc": "/images/img17.jpeg"
+    },
+    {
+      "id":13,
+      "imgSrc":  "/images/img13.jpeg",
+      "id1":"winner"
+    },
+    {
+      "id":14,
+      "imgSrc":  "/images/img14.jpeg"
+    },
+    {
+      "id":15,
+      "imgSrc":  "/images/img15.jpeg"
+    },
+    {
+      "id":16,
+      "imgSrc":  "/images/img16.jpeg"
+    },
+    {
+      "id":17,
+      "imgSrc": "/images/img12.jpeg",
+      "id1":"image12"
+    },
+    {
+      "id":18,
+      "imgSrc": "/images/img11.jpeg"
+    },
+    {
+      "id":19,
+      "imgSrc": "/images/img1.jpeg"
+    },
+    {
+      "id":20,
+      "imgSrc": "/images/img20.jpeg",
+      "id1":"indianhiphop"
+    },
+    {
+      "id":21,
+      "imgSrc": "/images/img22.jpeg"
+    },
+    {
+      "id":22,
+      "imgSrc": "/images/img21.jpeg"
+    },
+    {
+      "id":23,
+      "imgSrc": "/images/img23.jpeg"
+    },
+    {
+      "id":24,
+      "imgSrc": "/images/imgCard.jpeg"
+    },
+    {
+      "id":25,
+      "imgSrc": "/images/imgCard1.jpeg"
+    },
+    {
+      "id":26,
+      "imgSrc": "/images/logo.png"
+    }
+  ]
+    }

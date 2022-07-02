@@ -27,6 +27,8 @@ import img23 from "../../assets/img23.jpeg";
 import imgCard from "../../assets/imgCard.jpeg";
 import imgCard1 from "../../assets/imgCard1.jpeg";
 import logo from "../../assets/logo.png";
+import { Link } from 'react-router-dom';
+import TopContactBar from '../TopContactBar';
 
 const Studio = () => {
 
@@ -165,7 +167,21 @@ const Studio = () => {
           
         })}
 
+
+
+
       </div>
+
+      <ul style={{display:'flex',flexWrap:'wrap-reverse',justifyContent:'center'}}>
+      <li className='m-2'>
+      <Link to="/director">  <button className='btn btn-warning'>ROHIT VIJAY DHARGAVE(DIRECTOR)</button></Link>
+      </li> 
+      <li className='m-2'>
+       <Link to="/about">  <button className='btn bg-rose-400 text-orange-50'>ABOUT D1 DANCE FITNESS AND ART ACADEMY</button></Link> 
+      </li>
+  </ul>
+
+  <TopContactBar/>
     </>
    
   )  

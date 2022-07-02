@@ -14,6 +14,10 @@ import Error from './components/Error';
 import ScrollToTop from "./components/courses/ScrollToTop"
 import CourseBunch from './components/courses/CourseBunch';
 import Studio from './components/studio/Studio';
+import Director from './components/director/Director';
+// import {Link} from 'react-scroll'
+
+
 
 function App() {
   
@@ -31,6 +35,7 @@ function App() {
         {/* <Route path="/contact" element={<Contact1/>} /> */}
         <Route path="/achieve" element={<Achieve/>} />
         <Route path="/studio" element={<Studio/>} />
+        <Route path="/director" element={<Director/>} />
         <Route path="*" element={<Error/>} />
       </Routes>
       <Footer/>

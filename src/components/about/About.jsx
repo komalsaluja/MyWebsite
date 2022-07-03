@@ -17,6 +17,7 @@ const About = () => {
 
 <ul className='text-xl' style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
   <li><img width='600px' alt="top" src={web} style={{filter: "drop-shadow(0 0 0.75rem crimson)"}}/></li>
+  <li><img width='600px' alt="top" src={web1} style={{filter: "drop-shadow(0 0 0.75rem crimson)"}}/></li>
  
    <li style={{flexBasis:'800px'}}><p style={{fontSize:'20px',margin:'40px',color:'white'}}>
    The foundation of D1 Dance Academy was laid by Rohit Vijay Dhargave on 10th of April 2010.<br/> D1 Dance Fitness and Art Academy is based in Nagpur and is ISO Certified and Registered.
@@ -39,7 +40,7 @@ const About = () => {
 
     Art classes and services are also offered under the D1 Banner. It includes Tattoo, Sketching, Makeup and Mehendi.
 
-    <li><img width='600px' alt="top" src={web1} style={{filter: "drop-shadow(0 0 0.75rem crimson)"}}/></li>
+    
    <h1 style={{fontSize:'20px',margin:'20px',textAlign:'center',color:'white',textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue"}}>CONNECT WITH US:</h1>
 
    

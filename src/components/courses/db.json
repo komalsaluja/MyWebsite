@@ -7,15 +7,12 @@
         "desc2":" At D1 we have a team of versatile dancers who teach and perform various dance styles like - HipHop, Contemporary, Bollywood, Western, Folk, etc. Let's take a quick look at what we do: We train group performers, we train kids and adults for various Competitions and Reality Shows. We also conduct training programs and workshops for students and Dance Teachers. Our staff also judges various competitions.",
         "image":"/images/img9.jpeg",
         "image1":"/images/img9.jpeg",
-        "image2":"/images/img9.jpeg",
-        "basic":"BASIC DANCE AND FITNESS",
-        "advance":"ADVANCE CERTIFICATION",
-        "professional":"PROFESSIONAL DIPLOMA"
+        "image2":"/images/img9.jpeg"
       },
       {
         "id": 2,
         "name": "GYMNASTICS",
-        "desc": "Attain that balance,strength,flexibility that you've always wished for.",
+        "desc": "Attain that balance,strength,flexibility you've always wished for.",
         "desc2":"You'll be taught under the supervision of trained and experienced staff. ",
         "image":"/images/img20cropped.jpeg",
         "image1":"/images/img20cropped.jpeg",

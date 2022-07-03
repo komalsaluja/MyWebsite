@@ -3,6 +3,7 @@ import data from "./db.json"
 import { Link, useParams } from "react-router-dom"
 // import Cart from "./Cart"
 // import CartContext from "../../context/context"
+import Courses1 from "../Courses1"
 
 export default function SingleProduct() {
   const [singleProduct, setSingleProduct] = useState([])
@@ -19,22 +20,34 @@ export default function SingleProduct() {
     findProduct()
   }, [name])
 
+  const renderElement= ()=>{ 
+    if(singleProduct.name === 'DANCE')
+       return <Courses1/>;
+    return null;
+ }
+ 
+
   return (
     <>
       <section className="xl:max-w-6xl xl:mx-auto py-10 lg:py-20 p-5">
 
-      <h1 className="text-4xl lg:mb-10 text-white font-bold md:text-5xl lg:text-6xl" style={{textAlign:'center'}}>
+      <h1 className="text-4xl lg:mb-10 font-bold md:text-5xl lg:text-6xl" style={{textAlign:'center',color:'white',textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue"}}>
           {name}
         </h1>
-        <ul className="my-0 p-9 " style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
+        {/* <ul className="my-0 p-9 " style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
          <Link to="/contact"> <li className="ml-5"><button className="btn btn-warning p-2 text-xl">{singleProduct.basic}</button></li> </Link>
          <Link to="/contact"> <li className="ml-5"><button className="btn btn-warning p-2 text-xl">{singleProduct.advance}</button></li> </Link>
 
          <Link to="/contact"> <li className="ml-5"><button className="btn btn-warning p-2 text-xl">{singleProduct.professional}</button></li> </Link>
 
-        </ul>
+        </ul> */}
        
         <p className="text-slate-100 my-1 mb-0 text-2xl" style={{color:'white'}}>{singleProduct.desc}</p>
+
+
+        <div className="p-0 ml-0">
+        { renderElement() }
+        </div>
         <div className='flex my-3' style={{display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
         
 
@@ -45,6 +58,8 @@ export default function SingleProduct() {
         
         <p className="text-slate-100 m-2 text-2xl" style={{color:'gold'}}>{singleProduct.desc2}</p>
         </div>
+
+
        
        
 
